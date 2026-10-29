@@ -1,0 +1,12 @@
+SITE DR CLOVIS CONDICELLI - COMO PUBLICAR NA VERCEL
+
+1) Ver localmente: nesta pasta, rode  python -m http.server 8000  e abra http://localhost:8000
+2) Publicar: instale o Node.js, rode  npm i -g vercel  e depois  vercel  (Framework: Other, sem build command, diretorio ./ ) e  vercel --prod
+3) Dominio: Settings > Domains > adicione drcloviscondicelli.com.br e www.drcloviscondicelli.com.br e crie no Registro.br os registros DNS que a Vercel indicar. O vercel.json ja redireciona o www para o dominio sem www.
+4) Depois de publicar: envie https://drcloviscondicelli.com.br/sitemap.xml no Google Search Console e crie o Perfil de Empresa no Google.
+
+PENDENCIAS SUAS
+- Confirmar a licenca das 3 imagens do blog (assets/img/burnout-*, insonia-*, depressao-*).
+- Revisao juridica da pagina /politica-de-privacidade/.
+- Incluir formacao (instituicao e ano) na secao "Sobre".
+- Escrever paginas para ansiedade, angustia e luto.
